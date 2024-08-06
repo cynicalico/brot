@@ -5,7 +5,8 @@ add_library(brot STATIC)
 
 target_sources(brot PUBLIC
         FILE_SET CXX_MODULES FILES
-        src/brot/maths.cppm
+        src/brot/engine.cppm
+        src/brot/window.cppm
 )
 
 target_compile_features(brot PUBLIC cxx_std_23)
