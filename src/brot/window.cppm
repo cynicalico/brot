@@ -7,6 +7,8 @@ module;
 export module brot.window;
 
 export namespace brot {
+inline const std::string window_tag = "brot::window";
+
 class window {
 public:
     window();
